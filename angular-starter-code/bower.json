@@ -3,7 +3,7 @@
   "description": "A lab for angular controllers",
   "main": "index.js",
   "authors": [
-    "alexpchin <alex@alexchin.co.uk>"
+    "janischan <jhchan.web@gmail.com>"
   ],
   "license": "ISC",
   "homepage": "",
@@ -15,6 +15,8 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "^1.5.8"
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.4.2",
+    "angular-resource": "^1.6.3"
   }
 }

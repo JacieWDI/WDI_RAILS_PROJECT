@@ -5,7 +5,8 @@ angular
 BarsIndexCtrl.$inject = ['Bar'];
 function BarsIndexCtrl(Bar) {
   const vm = this;
-  vm.all = Bars.query();
+
+  vm.all = Bar.query();
 }
 
 //   function fetchBars() {
