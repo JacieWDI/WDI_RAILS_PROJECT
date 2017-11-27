@@ -9,10 +9,10 @@ MainCtrl.$inject = [
 function MainCtrl($http){
   const vm = this;
 
-  console.log('MAINCTRL',vm);
+  // console.log('MAINCTRL',vm);
 
-  $http.get('http://localhost:3000/bars')
+  $http.get('http://localhost:3000/api/bars')
     .then(res => {
-      console.log(res);
+      console.log(res.data);
     });
 }

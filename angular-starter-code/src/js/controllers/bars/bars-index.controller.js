@@ -6,18 +6,5 @@ BarsIndexCtrl.$inject = ['Bar'];
 function BarsIndexCtrl(Bar) {
   const vm = this;
 
-  vm.all = Bar.query();
+  vm.bars = Bar.query();
 }
-
-//   function fetchBars() {
-//     Bar
-//       .query()
-//       .$promise
-//       .then(bars => {
-//         vm.bars = bars;
-//         console.log(vm.bars);
-//       });
-//   }
-//   fetchBars();
-//
-// }

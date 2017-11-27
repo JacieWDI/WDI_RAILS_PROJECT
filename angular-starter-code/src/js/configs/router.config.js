@@ -18,8 +18,8 @@ function Router(
   $stateProvider
     .state('barsIndex', {
       url: '/bars',
-      templateUrl: 'js/views/bars/index.html',
-      controller: 'BarsIndexCtrl as barsIndex'
+      templateUrl: '/js/views/bars/index.html',
+      controller: 'BarsIndexCtrl as vm'
     });
 
   $urlRouterProvider.otherwise('/bars');
